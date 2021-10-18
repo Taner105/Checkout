@@ -61,7 +61,7 @@ label{
 }
 
 .postaulke{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -71,3 +71,58 @@ label{
     padding: 8px 5px 8px 35px;
     border-radius: 7px;
 }
+.down{
+    position: relative;
+    top: 20px;
+}
+.submit{
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 450px;
+}
+.submit input{
+    padding: 15px 10px 15px 10px;
+    background-color:#F2994A ;
+    border-radius: 12px;
+    border: none;
+    color: #ffffff;
+}
+.background{
+    /* border: 1px solid red; */
+}
+.image-upcheapter{
+    border: 1px solid red;
+    display: flex;
+    justify-content:flex-start;
+}
+.image-upcheapter img{
+    height: 110px;
+    width: 96px;
+    border-radius: 10px;
+}
+.right{
+    margin-left: 30px;
+    margin-top: 10px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.button{
+    width:60px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 8px;
+    
+}
+    
+#mani{
+    margin-top: 20px;
+}
+.button button i{
+    padding: 3px;
+    
+}
+
+
