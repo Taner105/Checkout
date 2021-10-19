@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    display: flex;
+    justify-content: space-around;
+}
 
 .tittle{
     display: flex;
@@ -13,12 +17,15 @@
 form{
     margin-left: 180px;
     font-family:'Montserrat', sans-serif ;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 form h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     letter-spacing: 2px;
+}
+form input{
+    border: 1px solid #828282;
 }
 label{
     font-size: 12px;
@@ -75,25 +82,25 @@ label{
     position: relative;
     top: 20px;
 }
-.submit{
+/* .submit{
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
     margin-right: 450px;
-}
-.submit input{
+} */
+/* .submit input{
     padding: 15px 10px 15px 10px;
     background-color:#F2994A ;
     border-radius: 12px;
     border: none;
     color: #ffffff;
-}
-.background{
-    /* border: 1px solid red; */
-}
+} */
+
 .image-upcheapter{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
-    justify-content:flex-start;
+    width: 280px;
+    /* justify-content:flex-start; */
+        
 }
 .image-upcheapter img{
     height: 110px;
@@ -102,27 +109,126 @@ label{
 }
 .right{
     margin-left: 30px;
-    margin-top: 10px;
-    /* display: flex;
-    justify-content: space-around; */
 }
-.button{
-    width:60px;
-    height: 30px;
+
+.right h2, .right2 h2{
+    font-size: 16px;
+}
+.button1{
+    width:102px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    margin-top: 8px;
+    margin-top: 30px;
+    border-radius: 5px;
     
 }
     
 #mani{
-    margin-top: 20px;
+    margin-top: 5px;
 }
-.button button i{
+/* .button button i{
     padding: 3px;
     
+} */
+.button1 i{
+    margin: 17px;
+    background-color:#e0e0e0;
+    border-radius: 2px;
+    /* font-size: 12px; */
+}
+.downcheapter{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:flex-start;
+    padding: 0 10px 10px 0;
+}
+.downcheapter img{
+    height: 110px;
+    width: 96px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.button2{
+    width:102px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+#mani2{
+    margin-top: 5px;
+}
+.button2 i{
+    margin: 17px;
+    background-color:#e0e0e0;
+    border-radius: 2px;
+    font-weight: bold;
+    /* font-size: 12px; */
+}
+.right2{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.image-right{
+    margin-top: 60px;
+    margin-right: 350px;
+    font-family:'Montserrat', sans-serif ;
+    color: #4E5150;
+    
+}
+.background{
+    /* border: 1px solid red; */
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    width: 320px;
+    height: 365px;
+    padding: 20px;
+    padding-right: 60px;
+}
+
+.hori1{
+    border-right-width: thin;
+    display: flex;
+    justify-content: space-between;
+    /* width: 30%; */
+    
+    
+}
+.hori2{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    margin-top: 20px;
+   
+}
+#continue{
+    margin-top: 40px;
+    margin-left: 350px;
+    padding: 12px 8px 12px 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F2994A;
+    color: #ffffff;
+}
+@media screen and (max-width:540px) {
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 220px;
+        margin-left: 30px;
+    }
+    .tittle{
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
 }
 
 
