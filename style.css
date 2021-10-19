@@ -221,14 +221,19 @@ label{
     main{
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 220px;
-        margin-left: 30px;
     }
-    .tittle{
-        text-align: center;
-        margin-top: 20px;
-        font-family: 'Montserrat', sans-serif;
+    form{
+        margin-left: 40px;
+        font-family:'Montserrat', sans-serif ;
+        margin-top: 80px;
     }
-}
+    .image-right{
+        margin-top: 60px;
+        margin-left: 100px;
+        font-family:'Montserrat', sans-serif ;
+        color: #4E5150;
+        
+    }
+}    
 
 
